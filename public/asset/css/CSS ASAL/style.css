@@ -1,0 +1,113 @@
+@font-face{
+	font-family: 'poppin';
+	src : url('../font/poppins/poppins.ttf')
+}
+
+@font-face{
+	font-family: 'inter';
+	src : url('../font/inter/inter.ttf')
+}
+
+
+@font-face{
+	font-family: 'sora';
+	src : url('../font/sora/sora.ttf')
+}
+
+@font-face{
+	font-family: 'lobster';
+	src : url('../font/lobster/Lobster-Regular.ttf')
+}
+
+
+@font-face{
+	font-family: 'pacific';
+	src : url('../font/pacific/Pacifico-Regular.ttf')
+}
+
+
+
+.text_flow_multi1 {
+	/* Tampilkan 1 baris */
+	font-size: inherit;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	position: relative;
+	color: inherit;
+}
+.text_flow_multi2 {
+	/* Tampilkan 2 baris */
+	font-size: inherit;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	position: relative;
+	color: inherit;
+}
+
+
+.text_flow_multi3 {
+	/* Tampilkan 3 baris */
+	font-size: inherit;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	position: relative;
+	color: inherit;
+}
+
+.text_flow_multi4{
+	/* Tampilkan 4 baris */
+	font-size: inherit;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	position: relative;
+	color: inherit;
+}
+
+
+
+.header_page{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+.header_page h1{
+	font-weight: bolder;
+	font-family: pacific;
+	font-size: 40px;
+}
+
+.col_modal_menu{
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+}
+.col_modal_menu a{
+	display: block;	
+	width: 100%;
+	height: auto;
+	text-decoration: none;
+	color: #000;
+}
+
+
+.video{
+	width: 100%;
+	height: 400px;
+}
+.video video{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+

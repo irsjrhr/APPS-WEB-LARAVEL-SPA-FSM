@@ -1,0 +1,320 @@
+.content_prime{
+	padding: 20px;
+}
+.content_sidebar{
+	width: 330px;
+}
+.btn{
+	border-radius: 4px;
+	height: auto;
+	padding: 10px;
+}
+
+.card_content{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-radius: 12px;
+	border: .5px solid #ccc;
+	padding-right: 0!important;
+	padding-left: 0!important;
+}
+.card_content .title{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.title *{
+	font-size: 20px!important;
+}
+.card_content .sub_title{
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.sub_title *{
+	font-size: 17px!important;
+}
+.card_content .text{
+	font-size: inherit;
+	margin-bottom: 10px;
+}
+.card_content.padding_card,
+.card_content .padding_card
+{
+	padding: 20px !important;
+}
+.card_content > div{
+	padding-bottom: 0 !important;
+}
+.card_content{
+	font-size: 17px;
+}
+.create_post button{
+	border-radius: 30px;
+	border: 2px solid #ccc;
+	padding: 15px;
+}
+/*Header_box*/
+.card_content.post:not(.create_post){
+	margin-top: 10px;
+}
+.card_content.post .img_profile > img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.card_content button{
+	/*font-size: 12px;*/
+	/*padding: 5px;*/
+}
+.card_content .detail_profile p{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.card_content .detail_profile p.date{
+	font-size: 12px;
+}
+.card_content .detail_profile button{
+	font-size: 10px;
+	padding: 5px;
+}
+/* Body Box  */
+.card_content .body_box{
+	/*margin-top: 20px;*/
+}
+.body_box > .caption{
+	width: 100%;
+	padding-top: 10px;
+}
+.body_box > .media{
+	margin-top: 20px;
+	height: 332px;
+}
+.media img{
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+}
+.card_content .footer_box{
+	padding-top: 0;
+}
+.footer_box .toggle{
+	margin-top: 20px;
+}
+.toggle .btn_toggle{
+	text-align: center;
+}
+.btn_toggle{
+	padding: 0;
+	padding-bottom: 10px;
+}
+.btn_toggle button{
+	width: 100%;
+	height: 100%;
+}
+.btn_toggle button:hover{
+	background: #ccc;
+}
+
+/*Comment*/
+.comments{
+	display: none;
+}
+.comments .section_comment{
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.comments button{
+	font-size: inherit!important;
+	padding: 5px;
+}
+.box_comment{
+	background: #ede7e5;
+	padding: 10px;
+	border-radius: 4px;
+}
+.box_comment p{
+	margin-bottom: 5px;
+}
+/*Input comment*/
+.form_input_comment .btn_form{
+	display: none;
+}
+.input_reply{
+	display: none;
+}
+
+.reply_comment .section_comment{
+	padding-right: 0;
+}
+
+.card_content#detail_profile_group{
+}
+#detail_profile_group .title{
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+.btn_model{
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	border-radius: 50px;
+	color: #fff;
+	background: gold;
+}
+
+/*Peralihan dari profile,css*/
+
+.card_content.post{
+	margin-bottom: 10px!important;
+}
+.header_card_profile{
+	padding: 0!important;
+}
+.header_card_profile > div{
+	margin-bottom: 10px;
+}
+.content_thumbnail{
+	height: 350px;
+	position: relative;
+	border-radius: inherit;
+}
+.content_thumbnail > .thumbnail{
+	height: 100%;
+}
+.content_thumbnail img{
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+}
+.header_card_profile .content_profile{
+	width: 100%;
+	height: 40px;
+	padding-left: 20px;
+	position: relative;
+	margin-bottom: 0px;
+}
+.content_profile .img_profile{
+	width: 152px;
+	height: 152px;
+	background: #fff;
+	position: absolute;
+	top: -120px;
+	border-radius: 50%;
+	padding: 3px;
+}
+.content_profile .img_profile > img{
+	width: 100% !important;
+	height: 100% !important;
+	border-radius: inherit;
+}
+.header_card_profile .content_text{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.content_text .btn_angkatan,.content_text .btn_tingkatan{
+	font-size: 15px;
+	padding: 5px;
+}
+
+.list_overflow_group{
+	width: 100%;
+	height: auto;
+}
+.card_list_group{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	position: relative;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 15px;
+}
+.card_list_group:hover{
+	background: rgba(0, 0, 0, 0.1);
+	transition: .5s;
+}
+/*Tampilan pc*/
+.card_list_group > div{
+	display: inline-block;
+}
+.card_list_group .img_thumb{
+	width: 70px;
+	height: 70px;
+	border-radius: 12px;
+}
+.card_list_group .img_thumb > img{
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+}
+.card_list_group .info_group{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.info_group > div{
+	padding: 0;
+	width: 100%;
+	height: auto;
+	font-size: inherit !important;
+	margin-bottom:  0!important;
+}
+
+@media ( max-width: 993px ){
+	.list_overflow_group{
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.card_list_group{
+		width: 40%;
+		display: inline-block;
+	}
+	.card_list_group .img_thumb{
+		width: 100%;
+		height: 100%;
+	}
+	.card_list_group .info_group{
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		width: 80%;
+		font-weight: bolder;
+		color: #fff;
+		background: rgba(0, 0, 0, .5);
+	}
+}
+@media( max-width:  600px){
+	.card_list_group{
+		font-size: 15px;
+	}
+	.list_overflow_group{
+		padding: 0;
+	}
+}
+@media( max-width:  400px){
+	.card_list_group{
+		width: 47%;
+	}
+	.card_list_group .info_group{
+		bottom: 10px;
+	}
+
+}
+
+
+
+/*Berbarengan saaat sidebar responsive*/
+@media ( max-width: 993px ){
+	.card_content.padding_card,
+	.card_content. .padding_card
+	{
+		padding: 0!important;
+	}
+}
+
+@media( max-width: 905px ){
+	.content_prime{
+		padding: 0;
+		padding-top: 10px;
+	}
+}

@@ -1,0 +1,23 @@
+.row_grid .content_img{
+	text-align: center;
+}
+.row_grid .content_img img{
+	width: 300px;
+}
+
+.col_box{
+	border: 1px solid #ccc;
+}
+.section_team .nama{
+	font-family: sora;
+}
+.section_team .quote{
+	font-family: inter;
+	font-style: italic;
+}
+.section_team .posisi{
+	font-family: lobster;
+}
+
+
+

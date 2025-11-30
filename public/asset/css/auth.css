@@ -1,0 +1,39 @@
+*{
+	font-family: poppin;
+}
+body{
+	background: #f6f8fd;
+}
+.col_login_form {
+
+}
+.col_login_form .section_form{
+}
+.col_container{
+	/*padding: 0;*/
+	padding-top: 70px;
+}
+.col_container .logo_login{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.title_login{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+.img_banner{
+	width: 400px;
+}
+.img_banner img{
+	position: fixed;
+	width: inherit;
+	height: 100%;
+}
+@media(max-width: 768px){
+	.img_banner{
+		display: none;
+	}
+}

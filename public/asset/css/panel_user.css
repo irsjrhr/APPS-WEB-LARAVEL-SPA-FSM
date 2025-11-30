@@ -1,0 +1,193 @@
+/*Content Prime*/
+.content_prime{
+	border-radius: 0;
+	margin-left: 0;
+	padding: 10px;
+}
+.content_prime .container_content{
+	border-radius: 12px;
+	background: none;
+	margin-bottom: 20px;
+}
+.container_content > .row{
+	border-radius: inherit;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.container_content .row_profile,
+.container_content .row_info
+{
+	padding: 20px;
+}
+.row_profile{
+	position: relative;
+}
+.btn_edit_profile{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.content_prime .header_content * :not(.header_content i){
+	font-family: pacific !important;
+	font-size: 40px;
+}
+/*Profile*/
+.profile_img{
+	width: 150px;
+	height: 150px;
+}
+.profile_img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.text_title{
+	font-weight: bolder;
+}
+.text_info{
+	color: grey;
+	margin-top: 15px;
+}
+.row_info .card{
+	border: none;
+}
+.row_info .row_card_info{
+	margin-top: 20px;
+}
+.row_card_info .col_card_info{
+	padding: 0 !important;
+}
+.col_card_info .text_info{
+	margin-top: 5px !important;
+}
+.col_card_info .card-body{
+	padding: 0;
+}
+
+@media( max-width:  769px){
+	.profile_img{
+		margin-bottom: 0 !important;
+	}
+	.row_profile{
+		justify-content: center;
+		text-align: center;
+	}
+
+	/*Dashboard responsive*/
+	.container_detail{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 999999999;
+		padding: 20px;
+		background: #fff;
+		display: none;
+	}
+	.container_detail .btn_corner{
+		font-size: 20px;
+		display: block;
+	}
+}
+
+
+
+/*Tambah Project User*/
+
+.container_tambah_project{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: relative;
+	padding: 20px;
+	/*overflow: auto;*/
+}
+.container_tambah_project .loader_page{
+	position: absolute;
+	background: #fff;
+}
+.header_content_form{
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+.body_content_form{
+	width: 100%;
+	height: 400px;
+	overflow: auto;
+	/*background: red;*/
+}
+.body_content_form > div{
+	display: none;
+}
+
+
+.content_form{
+	display: none;
+}
+.content_form.active{
+	display: block;
+}
+
+.content_form#form_input{
+
+}
+#form_input .row_form{
+
+}
+.content_form#form_rekom_teknisi{
+
+}
+#form_rekom_teknisi .row_teknisi{
+	padding: 20px;
+}
+.col_teknisi{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.col_teknisi.active{
+	border: 2px solid darkcyan;
+}
+.col_teknisi .teknisi_img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: relative;
+}
+.teknisi_img img{
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+}
+.col_teknisi .teknisi_info{
+	flex: 1;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.teknisi_info p{
+	margin-bottom: 0;
+}
+.btn_pilih_teknisi{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+

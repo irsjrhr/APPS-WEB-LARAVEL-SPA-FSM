@@ -1,0 +1,26 @@
+.main_container{
+	padding-bottom: 100px;
+}
+
+.sidebar .row_profile{
+	text-align: center;
+	/*background: darkslategrey;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+}
+.row_profile *{
+	color: #000;
+}
+.row_profile .img_profile{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.row_profile .role_font{
+	color: grey;
+	font-weight: 800;
+}
+
+

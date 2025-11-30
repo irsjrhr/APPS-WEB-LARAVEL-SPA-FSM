@@ -1,0 +1,213 @@
+
+#modal_select_file{
+	z-index: 77777777;
+}
+#modal_tambahFile_async{
+	z-index: 88888888;
+}
+#modal_view_file{
+	z-index: 99999999;
+}
+.modal{
+	overflow: auto!important;
+}
+
+.col_file{
+	text-align: center;
+	margin-bottom: 20px;
+	cursor: pointer;
+	position: relative;
+	overflow: auto;
+}
+
+.col_file *{
+	background: #fff;
+	color: #000;
+}
+
+.col_file.active *{
+	background: #ccc;
+	color: #fff;
+}
+
+.col_file input[type=radio]{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+
+}
+.load_ajax_data{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .8);
+	z-index: 9999999;	
+	display: none;
+}
+.load_ajax_data img{
+	width: 100px;
+	height: 100px;
+}
+#modal_select_file img.col_file_img{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+.col_file_jenis{
+
+}
+.box_file_jenis{
+	background: rgba(0, 0, 0, .1);
+	border-radius: 3px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.box_file_jenis .row > div{
+	padding: 0;
+}
+.box_indicator_pakai{
+	width: 100%;
+	height: 30px;
+	background: white;
+	position: relative;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.indicator_pakai{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	border-radius: inherit;
+	background: limegreen;
+	transition: 1s;
+}
+.col_file_data{
+	overflow: auto;
+}
+.btn_opt{
+	background: rgba(0, 0, 0, .5);
+	color: #fff !important;
+}
+.btn_opt *{
+	color: inherit; !important;
+}
+.form_modal_file{
+	width: 100%;
+	height: auto;
+	border: 2px dashed #000 !important;
+	margin-bottom: 20px;
+}
+.caption_file{
+	margin-bottom:0;
+	background:darkcyan;
+	color:white !important;
+	width:auto;
+	padding:10px;
+	padding-bottom: 0;
+	padding-top: 0;
+	background: darkcyan !important;
+}
+.caption_file.size{
+
+}
+.caption_file.ext{
+
+}
+
+/* ========= MODAL VIEW FILE =========== */
+
+#modal_view_file{
+
+}
+#modal_view_file #caption_source{
+	color: darkcyan;
+	text-align: left;
+}
+#modal_view_file .container_modal_view{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: auto;
+}
+.container_modal_view .view_el
+{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+}
+.container_modal_view audio{
+	height: auto;
+}
+
+/* Styling untuk plain text (pre) */
+#text_view pre{
+	height: inherit;
+	background: #1e1e2f;   /* warna gelap ala VSCode */
+	color: #e0e0e0;
+	padding: 10px;
+	border-radius: 8px;
+	overflow-x: auto;
+	font-family: "Fira Code", "Courier New", monospace;
+	line-height: 1.5;
+	font-size: 14px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+	margin-bottom: 16px;
+	white-space: pre-wrap; /* biar wrap ke bawah kalau panjang */
+}
+
+/* Styling untuk code block */
+#code_view pre{
+	margin-top: -20px;
+	height: inherit;
+}
+#code_view code {
+	height: inherit;
+	display: block;
+	background: #2d2d44;
+	color: #ffcc66;
+	padding: 10px;
+	border-radius: 8px;
+	font-family: "Fira Code", "Courier New", monospace;
+	font-size: 14px;
+	line-height: 1.5;
+	overflow-x: auto;
+	white-space: pre;
+}
+.btn_modal_view{
+
+}
+.box_task .btn_modal_view{
+	margin-right: 40px !important;
+}
+
+
+.btn_copy {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	padding: 4px 8px;
+	font-size: 12px;
+	background: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+.btn_copy:hover {
+	opacity: 1;
+}
+#code_view .btn_copy{
+	top: 23px;
+}

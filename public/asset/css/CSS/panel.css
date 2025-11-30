@@ -1,0 +1,387 @@
+
+
+*{
+	font-family: poppin;
+}
+
+body{
+	background: #f6f8fd;
+}
+
+
+
+/*+++++++++ Sidebar Untuk Template Awal .col_sidebar +++++++++++++*/
+.col_sidebar{
+	width: 250px;
+	height: auto;
+	position: relative;	
+}
+.col_sidebar .sidebar{
+	position: fixed;
+	width: inherit;
+	height: 100%;
+	overflow-y: auto;
+	background: #fff;
+}
+.row_header, header{
+	text-align: center;
+	height: 70px;
+	overflow-y: hidden;
+	/*background: red;*/
+	padding-top: 10px;
+}
+header{
+	padding-top: 0;
+}
+.content .nav_header{
+	position: fixed;
+	/*width: inherit;*/
+	height: inherit;
+	padding: 20px;
+	background: #fff;
+	padding-top: 0;
+	z-index: 999;
+}
+
+.row_header{
+	margin-bottom: 20px;
+}
+.sidebar .btn_close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	/*display: none;*/
+}
+.btn_close i{
+	color: red;
+}
+.logo_sidebar{
+	width: 30px;
+	height: 30px;
+}
+.logo_font{
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: sora !important;
+}
+.link_menu{
+	color: #000;
+	text-decoration: none;
+}
+.link_menu:hover{
+	text-decoration: none;
+}
+.link_menu.active .row_menu{
+	background: darkcyan;
+}
+.link_menu.active *{
+	color: #fff;
+}
+.row_menu{
+	/*background: red;*/
+	padding: 10px;
+	padding-right: 0;
+	padding-left: 30px;
+	margin-right: 5px;
+	border-radius: 50px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	margin-bottom: 10px;
+}
+.row_menu .menu_logo{
+	padding: 0;
+	text-align: right;
+}
+.row_menu .menu_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.menu_logo i{
+	font-size: 25px;
+}
+
+
+
+.content{
+	position: relative;
+	padding: 0;
+}
+
+
+.content .main_container{
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	/*background: red;*/
+}
+
+
+.box_dashboard{
+	width: 100%;
+	padding: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.box_dashboard .card{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 20px;
+	border: 1px solid #ccc;
+	padding: 20px !important;
+}
+.box_dashboard .logo_back{
+	position: absolute;
+	font-size: 50px;
+	right: 30px;
+	top: 30px;
+	color: darkcyan;
+} 
+
+
+.box_dashboard.box_model{
+	padding: 0;
+	border: none;
+	position: relative;
+}
+.box_model .card{
+	position: relative;
+	top: 0;
+	/*border: none;*/
+}
+.box_model img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.box_model .logo_font{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.box_model .btn_direct{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 30px;
+}
+.box_model .row_informasi{
+	text-align: center;
+}
+.box_model .col_info{
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	justify-content: center;
+}
+.box_model .col_info .subjudul_info{
+	font-weight: bolder;
+}
+
+
+/*Untuk app course*/
+.col_header_index{
+	margin-bottom: 30px;
+}
+.col_header_index *{
+	font-size: 40px;
+}
+.box_model_course{
+	text-align: center;
+}
+.box_model_course .btn{
+	margin-top: 30px;
+}
+.box_profile{
+	width: 200px;
+	height: auto; !important;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: flex;
+	text-align: left;
+	cursor: pointer;
+}
+.img_profile{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.info_profile{
+	width: 60%;
+	margin-left: 10px;
+	/*background: red;*/
+}
+.info_user{
+	width: 100%;
+	height: auto;
+	/*overflow-x: hidden;*/
+	/*white-space: nowrap;*/
+}
+.info_role{
+	font-size: 14px;
+	color: darkcyan;
+	font-weight: bolder;
+}
+
+/*Disini sidebar sudah responsive dan fixed satu layar*/
+@media(max-width: 814px){
+	.col_sidebar .sidebar{
+		position: relative !important;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		box-shadow: 2px 2px 2px #ccc;
+	}
+	.sidebar .btn_close{
+		display: block;
+	}
+	.col_sidebar{
+		position: fixed !important;
+		width: 50%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 9999;
+		display: none;
+	}
+
+}
+/*Responsive sidebar mobile*/
+@media( max-width: 450px){
+	.col_sidebar{
+		width: 80%;
+	}
+}
+
+
+
+table{
+	border-top: none !important;
+}
+
+table .row_header{
+	background: #ccc;
+	position: relative;
+}
+
+.btn_sidebar{
+	cursor: pointer;
+}
+
+.row_header .btn_sidebar{
+	position: absolute;
+	top: 0;
+	right: 10px;
+
+}
+table td{
+	text-align: center;
+}
+
+table tr{
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+table .btn_opt{
+
+}
+table .menu_opt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: none;
+	padding-bottom: 10px;
+	z-index: 999;
+}
+.menu_opt .link_opt{
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.menu_opt .link_opt.close_opt{
+	background: brown;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+table .row_option{
+	border: none;
+}
+table img{
+	width: 30px;
+	height: 30px;
+}
+table img.profile{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+table .label{
+	width: auto;
+	height: auto;
+	padding: 2px;
+	border: #ccc;
+	color: #fff;
+	text-align: center;
+}
+
+.label.active{
+	background: green;
+	animation: animasi_label;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animasi_label{
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.table_option{
+	border: none;
+}
+.table_option .btn_tambah_data{
+	background: green;
+	color: #fff;
+}
+.table_option .container_option{
+	width: 200px;
+	position: relative;
+}
+.table_option td{
+	border: none;
+	text-align: left;
+}
+.btn_submit_opt{
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+
+.row_modal_menu > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+

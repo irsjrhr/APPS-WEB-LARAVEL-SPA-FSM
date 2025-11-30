@@ -1,0 +1,68 @@
+*{
+	font-family: poppin;
+}
+body{
+	background: #f6f8fd;
+}
+.img_banner{
+	width: 400px;
+}
+.img_banner img{
+	position: fixed;
+	width: inherit;
+	height: 100%;
+}
+.section_form{
+}
+.col_container{
+	/*padding: 0;*/
+	padding-top: 70px;
+}
+.col_container .logo_login{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.title_login{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+form{
+	background: #fff;
+	width: 100%;
+	padding: 30px;
+	border-radius: 15px;
+	padding-top: 35px;
+	margin-bottom: 100px;
+}
+form *{
+	font-size: 16px !important;
+}
+form input,
+form textarea,
+form button,
+form a.btn{
+	border-radius: 100px !important;
+}
+form input{
+	background: #e5e9f2 !important;
+	padding: 20px !important;
+	/*padding-left: 20px !important;*/
+}
+form a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+form .button_section{
+	margin-top: 50px;
+}
+@media(max-width: 768px){
+	.img_banner{
+		display: none;
+	}
+}
