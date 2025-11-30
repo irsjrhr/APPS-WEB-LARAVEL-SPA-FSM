@@ -40,6 +40,7 @@ var SET_LAT_LONG = ( lat, long ) => {
 };
 var maps_update = ( lat = LAT, long = LONG) => {
 
+
 	var monitoring_maps = $('.monitoring_maps');
 	var maps = monitoring_maps.find('#maps');
 
@@ -49,9 +50,11 @@ var maps_update = ( lat = LAT, long = LONG) => {
 	if ( lat.length > 0 && long.length > 0 ) {
 		//Url embed maps dengan koordinat
 		url = `https://www.google.com/maps?q=${lat},${long}&hl=id&z=15&output=embed`;
+		console.log('ADA');
 	}else {
 		//Url embed maps tanpa koordinat maps default
-		url = ``;
+		url = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52739252.67058551!2d84.20547375!3d-2.4833827499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c5d1fdf2a5f7b2f%3A0x1030bfbca8b7a1b8!2sIndonesia!5e0!3m2!1sid!2sid!4v1700000000000';
+		console.log('TIDAK ADA');
 	}
 
 	maps.attr('src', url);

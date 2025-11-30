@@ -171,3 +171,10 @@
 
 </section>
 
+
+<script type="text/javascript">
+	$(function() {
+		SET_LAT_LONG('–6.21462', '106.845');
+		maps_update();
+	});
+</script>

@@ -75,6 +75,7 @@ class Menu{
     public function SET_MODAL_MENU(){
         $this->data_modal_menu =  [
             [ "menu" => "Admin", "icon" => "fas fa-users", "url" => asset("admin/") ],
+            [ "menu" => "Teknisi", "icon" => "fas fa-users", "url" => asset("teknisi/") ],
             [ "menu" => "User", "icon" => "fas fa-users", "url" => asset("user/") ],
             [ "menu" => "Logout", "icon" => "fas fa-sign-out-alt", "url" => asset("auth/logout") ],
         ];

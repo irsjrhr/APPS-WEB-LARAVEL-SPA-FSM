@@ -201,6 +201,10 @@ function load_page( target_page = BASE_URL_PAGE ) {
 			}
 		});
 
+		//Kalo ada monitoring maps 
+		maps_update();
+
+
 	});
 
 

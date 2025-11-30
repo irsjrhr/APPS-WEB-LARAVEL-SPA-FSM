@@ -150,7 +150,7 @@
 				setTimeout(function() {
 					Swal.fire( "Project berhasil dibuat!! Pantau project kamu." );
 					load_page( BASE_URL_PAGE + "user/monitoring");
-				},1000);
+				},3000);
 			}else{
 				//Jika ada input belum terisi atau ada lokasi atau teknisi yng masih ernilai none
 				if ( lat == "none" || long == "none" ) {
@@ -229,7 +229,7 @@
 			loader_page( 'hide',  loader_tambah_project, "Mencari Teknisi");
 			content_form.removeClass('active');
 			form_rekom_teknisi.addClass('active');
-		}, 1000);
+		}, 3000);
 
 
 	}
